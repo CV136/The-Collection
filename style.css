@@ -1,8 +1,22 @@
 body {
-    background-color: azure;
+    background-color: #ffe6cc;
+    color: #990000;
 }
 
 header {
-    color: blue;
     text-align: center;
 } /*ou align left with a big margin*/
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    /*adjust width*/
+}
+
+article {
+    background-color: #fff3e6;
+    padding: auto;
+    /*make p text wrap*/
+}
